@@ -1,19 +1,20 @@
 package theMoneyExample;
 
 public class Dollar extends Money{
+	private String currency;
 
 
-	public Dollar(int amount) {
-		this.amount = amount;
+	public Dollar(int amount, String currency) {
+		super(amount, currency);
 	}
 
-	public Dollar times(int multiplier) {
-		return new Dollar(amount * multiplier);	
+	public Money times(int multiplier) {
+		return Money.dollar(amount * multiplier);	
 	}
 
 	@Override
-	protected String currency() {
-		return "USD";
+	public String currency() {
+		return currency;
 	}
 	
 
