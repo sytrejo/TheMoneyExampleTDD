@@ -7,7 +7,7 @@ import org.junit.*;
 import theMoneyExample.Dollar;
 import theMoneyExample.Franc;
 
-public class DollarTest {
+public class MoneyTest {
 	
 	@Test
 	public void testDollarMultiplication() {
