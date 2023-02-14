@@ -4,8 +4,6 @@ import static org.junit.Assert.*;
 
 import org.junit.*;
 
-import theMoneyExample.Dollar;
-import theMoneyExample.Franc;
 import theMoneyExample.Money;
 
 public class MoneyTest {
